@@ -1,10 +1,10 @@
-import expenseRoutes from "./routes/expense.routes";
-import testRoutes from "./routes/test.routes";
+import expenseRoutes from "./routes/expense.routes.js";
+import testRoutes from "./routes/test.routes.js";
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import prisma from "./config/prisma";
-import authRoutes from "./routes/auth.routes";
+import prisma from "./config/prisma.js";
+import authRoutes from "./routes/auth.routes.js";
 
 dotenv.config();
 

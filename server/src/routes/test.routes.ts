@@ -1,6 +1,5 @@
 import { Router } from "express";
-import { authenticate, AuthRequest } from "../middleware/auth.middleware";
-
+import { authenticate, AuthRequest } from "../middleware/auth.middleware.js";
 const router = Router();
 
 router.get("/profile", authenticate, (req: AuthRequest, res) => {

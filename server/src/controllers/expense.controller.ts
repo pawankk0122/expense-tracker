@@ -1,7 +1,6 @@
 import { Response } from "express";
-import prisma from "../config/prisma";
-import { AuthRequest } from "../middleware/auth.middleware";
-
+import prisma from "../config/prisma.js";
+import { AuthRequest } from "../middleware/auth.middleware.js";
 // CREATE EXPENSE
 export const createExpense = async (
   req: AuthRequest,

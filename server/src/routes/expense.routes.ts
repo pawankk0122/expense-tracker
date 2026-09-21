@@ -4,9 +4,8 @@ import {
   getExpenses,
   updateExpense,
   deleteExpense,
-} from "../controllers/expense.controller";
-import { authenticate } from "../middleware/auth.middleware";
-
+} from "../controllers/expense.controller.js";
+import { authenticate } from "../middleware/auth.middleware.js";
 const router = Router();
 
 router.post("/", authenticate, createExpense);
