@@ -249,7 +249,6 @@
     "powershell-utils": "^0.2.1",
     "prettier": "^3.9.8",
     "pretty-ms": "^9.3.1",
-    "prisma": "^8.0.0-rc.15",
     "process-nextick-args": "^2.0.1",
     "promise-limit": "^2.7.0",
     "proper-lockfile": "^4.1.2",
@@ -366,11 +365,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
+    "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^26.6.2",
     "@types/pg": "^8.23.1",
+    "prisma": "^7.10.0",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   }
